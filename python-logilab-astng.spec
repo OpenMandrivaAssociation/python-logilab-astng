@@ -37,3 +37,6 @@ the compiler.ast module with some additional methods and attributes
 %doc README COPYING ChangeLog
 %py_sitedir/logilab/*
 %exclude %py_sitedir/logilab/astng/test*
+%if "%py_ver" == "2.5"
+%py_sitedir/*.egg-info
+%endif

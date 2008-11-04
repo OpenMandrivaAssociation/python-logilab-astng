@@ -1,20 +1,20 @@
 %define module	logilab-astng
 %define name	python-%{module}
-%define version 0.17.2
-%define release %mkrel 4
+%define version 0.17.3
+%define release %mkrel 1
 
-Summary: Extension of compiler.ast Python module
-Name: 	 %{name}
-Version: %{version}
-Release: %{release}
-Source0: %{module}-%{version}.tar.lzma
-License: GPLv2+
-Group: 	 Development/Python
-Url: 	 http://www.logilab.org/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires: python-logilab-common >= 0.21.0
-BuildRequires: python-devel
-BuildArch: noarch
+Summary:	Extension of compiler.ast Python module
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Source0:	%{module}-%{version}.tar.lzma
+License:	GPLv2+
+Group:		Development/Python
+Url:		http://www.logilab.org/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Requires:	python-logilab-common >= 0.21.0
+BuildArch:	noarch
+%py_requires -d
 
 %description
 This module provides a common base representation of Python source

@@ -1,13 +1,13 @@
 %define module	logilab-astng
 %define name	python-%{module}
-%define version 0.17.3
-%define release %mkrel 2
+%define version 0.17.4
+%define release %mkrel 1
 
 Summary:	Extension of compiler.ast Python module
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Source0:	%{module}-%{version}.tar.lzma
+Source0:	%{module}-%{version}.tar.bz2
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/

@@ -14,6 +14,7 @@ Url:		http://www.logilab.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	python-logilab-common >= 0.39.0
 BuildArch:	noarch
+BuildRequires:	python-setuptools
 %py_requires -d
 
 %description

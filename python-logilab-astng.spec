@@ -1,7 +1,7 @@
 %define module	logilab-astng
 %define name	python-%{module}
-%define version 0.19.0
-%define release %mkrel 2
+%define version 0.19.1
+%define release %mkrel 1
 
 Summary:	Extension of compiler.ast Python module
 Name:		%{name}

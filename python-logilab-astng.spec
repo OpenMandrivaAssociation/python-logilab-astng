@@ -38,5 +38,5 @@ the compiler.ast module with some additional methods and attributes
 %defattr(-,root,root)
 %doc README COPYING ChangeLog
 %py_sitedir/logilab*
-%exclude %py_sitedir/logilab/astng/test*
+%exclude %py_sitedir/logilab/astng/test/
 %py_sitedir/*.egg-info

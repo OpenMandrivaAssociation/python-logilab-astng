@@ -1,6 +1,6 @@
 %define module	logilab-astng
 %define name	python-%{module}
-%define version 0.21.1
+%define version 0.22.0
 %define release %mkrel 1
 
 Summary:	Extension of compiler.ast Python module
@@ -12,7 +12,7 @@ License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires:	python-logilab-common >= 0.49.0
+Requires:	python-logilab-common >= 0.53.0
 BuildArch:	noarch
 BuildRequires:	python-setuptools
 

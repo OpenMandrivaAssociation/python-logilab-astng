@@ -5,9 +5,9 @@
 
 Summary:	Extension of compiler.ast Python module
 Name:		python-%{module}
-Version:	0.24.1
+Version:	0.24.3
 Release:	1
-Source0:	http://ftp.logilab.org/pub/astng/%{module}-%{version}.tar.gz
+Source0:	http://download.logilab.org/pub/astng/logilab-astng-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
@@ -134,3 +134,4 @@ the compiler.ast module with some additional methods and attributes
 
 * Wed Mar 21 2007 Lev Givon <lev@mandriva.org> 0.17.0-1mdv2007.0
 - Initial Mandriva package.
+

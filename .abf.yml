@@ -1,4 +1,5 @@
 removed_sources:
   logilab-astng-0.23.1.tar.gz: d3d11f70b634309dd9025eec7a88fd05db786e7f
-sources:
   logilab-astng-0.24.1.tar.gz: 067922aed15f3d3025c04e6532c65c420ed86497
+sources:
+  logilab-astng-0.24.3.tar.gz: fe044a37762b05bfed2cf9a0d1b7598cc50a8891

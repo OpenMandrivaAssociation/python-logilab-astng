@@ -6,7 +6,7 @@
 Summary:	Extension of compiler.ast Python module
 Name:		python-%{module}
 Version:	0.24.3
-Release:	1
+Release:	2
 Source0:	http://download.logilab.org/pub/astng/logilab-astng-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python

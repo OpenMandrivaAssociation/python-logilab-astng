@@ -10,7 +10,7 @@ Release:	2
 Source0:	http://download.logilab.org/pub/astng/logilab-astng-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
-Url:		http://www.logilab.org/
+Url:		https://www.logilab.org/
 Requires:	python-logilab-common >= 0.53.0
 Requires:	python(abi) = %{py_ver}
 BuildArch:	noarch
